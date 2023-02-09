@@ -1,0 +1,50 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    border-bottom: solid rgba(105, 105, 105, 0.706) 1px;
+}
+
+.wrapper-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cursor-pointer:hover {
+    color: red;
+}
+
+.btn-chocalet {
+    background-color: rgb(255, 166, 0);
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-border {
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.card-list {
+    background-color: #dadce4dd;
+}
+
+.card {
+    border: none;
+}
+
+.header-input {
+    border: solid 2px blue;
+}
+
+.div-input {
+    outline-width: 0px;
+}

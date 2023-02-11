@@ -33,6 +33,11 @@
     background-color: blue;
 }
 
+.btn-border:active {
+    border-radius: 10px;
+    background-color: #000;
+}
+
 .card-list {
     background-color: #dadce4dd;
 }
@@ -43,8 +48,19 @@
 
 .header-input {
     border: solid 2px blue;
+    
 }
 
 .div-input {
     outline-width: 0px;
+}
+
+.span-content{
+    border-radius: 100%;
+    padding: 0.1px 8px;
+}
+
+.icon-box{
+    display: flex;
+    flex-direction: column;
 }

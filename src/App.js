@@ -4,13 +4,14 @@ import './App.css';
 
 import Header from './componets/Header';
 import Main from './componets/Main';
+import FavoritesContent, { FavoritesContentProvider } from './componets/FavoritesContent'
 
 
 function App() {
   return (
     <div className="App container">
-      <Header />
-      <Main />
+        <Header />
+        <Main />
     </div>
 
 
